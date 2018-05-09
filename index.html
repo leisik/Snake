@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="snake.png">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+</head>
+<body>
+    <canvas id="cs" width="400px" height="400px" style="border: 2px solid red; background-color: #444;"></canvas>
+    
+    <div id="score"></div>
+    <div id="scores">
+        <div id="scoreTable">
+            <h1>Poprzednie wyniki:</h1>
+            <ul>
+                <li><span>0 pkt</span></li>
+                <li><span>0 pkt</span></li>
+                <li><span>0 pkt</span></li>
+                <li><span>0 pkt</span></li>
+                <li><span>0 pkt</span></li>
+            </ul>
+        </div>
+        <div>
+            <h1>Najlepszy wynik:</h1>
+            <h2 id="best-score">0 pkt</h2>
+        </div>
+    </div>
+    <div class="buttons">
+        <input type="submit" id="game-with-edges" value="Edges">
+        <input type="submit" id="game-without-edges" value="Without edges">
+        <p id="actual">Actual game type: Egdes</p>
+    </div>
+    
+    <script src="snake.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Pangolin', cursive;
+}
+
+#score{
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    font-size: 3rem;
+    color: #999;
+}
+
+#scores{
+    position: absolute;
+    top: 0;
+    left: 430px; 
+} 
+h1 {
+    margin-bottom: 1rem;
+}
+ul {
+    list-style-type: decimal;
+}
+ul > li {
+    margin-left: 4rem;
+}
+li span{
+    position: relative;
+    left: 20px;
+}
+h2 {
+    text-align: center;
+}
+
+input{
+    margin: 0;
+    margin-top: 0;
+    padding: 5px 10px;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.25rem;
+    position: relative;
+    left: 25px;
+}
+.buttons {
+    position: absolute;
+    top: 420px;
+    left: 70px;
+}
+#game-with-edges {
+    margin-right: 10px;
+}
